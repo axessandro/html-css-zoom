@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+/* common */
+
+.btn-header{
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0.3em;
+}
+
+/* main */
+
+main{
+    height: 87.5%;
+    
+}
+
+.viewbar{
+    height: 60px;
+    font-size: 0.6rem;
+    padding-top: 8px;
+    text-align: end;
+    padding-right: 8px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%,
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.col{
+    width: calc(100% / 7 - 10p4px);
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    width: calc(100% - 4px);
+    font-size: 0.6rem;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.6em;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+/* main */
+
+/* tollbar */
+
+.toolbar{
+    background-color: #222222;
+    height: 12.5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+
+.icon{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.foot2{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.foot2 .btn-text{
+    font-size: 0.7rem;
+}
+
+.foot1 .btn-text{
+    font-size: 0.7rem;
+}
+
+.green{
+    color: #45C001;
+}
+
+.foot3{
+    background-color: #4A4A4A;
+    padding: 0 1em;
+    font-size: 0.7rem;
+    color: #FF0026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tollbar */
